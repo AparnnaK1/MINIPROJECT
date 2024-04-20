@@ -1,7 +1,34 @@
-import React from 'react'
+import React from 'react';
+import Heading from '../common/Heading';
+import './Home.css';
 
-export default function Home() {
+const Home = () => {
   return (
-    <div>Home</div>
-  )
+    <section className='Home'>
+      <div className='container'>
+        <Heading title='WE-Loan' subtitle='KudumbaSree Loan Initiative' />
+
+        <form className='flex'>
+          <div className='box'>
+            <span>District</span>
+            <input type='text' placeholder='Enter Location:' />
+          </div>
+          <div className='box'>
+            <span>KudumbaSree Unit No</span>
+            <input type='text' placeholder='Enter valid no' />
+          </div>
+          <div className='box'>
+            <span>KudumbaSree Unit Name</span>
+            <input type='text' placeholder='Enter valid name' />
+          </div>
+          <br />
+          <button className='btn5' id='bu'>
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+  );
 }
+
+export default Home;
