@@ -54,6 +54,7 @@ import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import Back from '../common/Back';
 import img from '../assets/images/home/abimg.jpg';
+import './Register.css'
 //import PriceCard from '../home/price/PriceCard';
 //import '../home/price/price.css';
 
@@ -86,10 +87,11 @@ const Register = () => {
 
   return (
     <>
+      {/* <img src={img} alt="" className="src" /> */}
       <section className='contact mb'>
         <Back title='Please Sign Up And Get Our Help' name='Sign Up' cover={img} />
         <div className='container'>
-          <form className='shadow' onSubmit={RegisterUser}>
+          <form className='shadow' onSubmit={RegisterUser} style={{marginTop: '10px'}}>
             <h4>Please enter your details to sign up</h4> <br />
             <div>
               <input type='text' placeholder='Name' value={data.name} onChange={(e) => setData({ ...data, name: e.target.value })} />
@@ -101,7 +103,7 @@ const Register = () => {
             <input type='text' placeholder='Ward Number' value={data.wardNo} onChange={(e) => setData({ ...data, wardNo: e.target.value })} />
             <input type='text' placeholder='Panchayat/Municipality' value={data.panchayatOrMunicipality} onChange={(e) => setData({ ...data, panchayatOrMunicipality: e.target.value })}  />
             {/* End of additional input fields */}
-            <button className="btn5" type='submit'>Submit Request</button>
+            <button className="b1" type='submit' style={{marginBottom: '-1px'},{marginLeft:'400px'}}>Submit Request</button>
           </form>
         </div>
       </section>

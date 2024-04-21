@@ -5,6 +5,8 @@ import './Home.css';
 const Home = () => {
   return (
     <section className='Home'>
+       <div class="blur-overlay"></div>
+       <div class="content">
       <div className='container'>
         <Heading title='WE-Loan' subtitle='KudumbaSree Loan Initiative' />
 
@@ -21,11 +23,12 @@ const Home = () => {
             <span>KudumbaSree Unit Name</span>
             <input type='text' placeholder='Enter valid name' />
           </div>
-          <br />
-          <button className='btn5' id='bu'>
+          <br></br>
+          <button className='btn4' id='bu'style={{marginTop: '10px'}}>
             Submit
           </button>
         </form>
+      </div>
       </div>
     </section>
   );

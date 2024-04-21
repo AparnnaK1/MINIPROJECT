@@ -23,9 +23,9 @@ const About = () => {
            </div> 
            
            
-           <div className='right row'>
-            <img src='images/location/abo.jpg' alt='' />
-          </div> 
+           {/* <div className='right row'>
+            <img src='../assets/images/home/abimg.jpg' alt='' />
+          </div>  */}
         </div>
        
       </section>

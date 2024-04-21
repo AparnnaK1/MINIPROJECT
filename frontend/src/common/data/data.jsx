@@ -30,27 +30,27 @@ export const nav = [
   ]
   export const featured = [
     {
-      cover: "../images",
+      cover: "../../assets/images/home/can.jpg",
       name: "Canara Bank",
       // total: "122 Property",
     },
     {
-      cover: "images/hero/coop.jpeg",
+      cover: "../../assets/images/home/coop.jpeg",
       name: "Cooperative Bank",
       // total: "155 Property",
     },
     {
-      cover: "images/hero/sbi.jpg",
+      cover: "../../assets/images/home/sbi.jpg",
       name: "State Bank Of India",
       // total: "300 Property",
     },
     {
-      cover: "images/hero/hdfc.jpg",
+      cover: "../../assets/images/home/hdfc.jpg",
       name: "HDFC Bank",
       // total: "80 Property",
     },
     {
-      cover: "images/hero/icici.jpg",
+      cover: "../../assets/images/home/icici.jpg",
       name: "ICICI Bank",
       // total: "80 Property",
     },
